@@ -1,7 +1,7 @@
 # Weird behavior with go test
 
 The foo package imports bar and baz, so it makes sense we see the log lines from
-their imports:
+the init functions in those packages:
 
 ```
 $ go test ./... -v -cover
